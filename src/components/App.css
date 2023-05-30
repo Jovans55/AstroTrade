@@ -28,6 +28,16 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
 }
+
+input {
+    margin: 14px 16px;
+    padding: 7px;
+    padding-right: 100px;
+}
+
+button {
+    margin: 14px 16px;
+}
   
 li a:hover {
     transition: .3s;
@@ -48,4 +58,18 @@ li a:hover {
 #cart:hover{
     transition: .3s;
     border: 1px solid rgba(255, 255, 255, 0.818);
+}
+
+#search{
+    margin-left: 50%;
+}
+
+@media only screen and (min-width: 2200px) {
+    ul{
+        display: flex;
+        justify-content: space-around;
+    }
+    #search{
+        margin-left: 30%;
+    }
 }
