@@ -13,7 +13,7 @@ function App() {
         <li><a>H𝙹ᒲᒷ</a></li>
         <li><a>Nᒷ∴ᓭ</a></li>
         <li><a>C𝙹リℸ ̣ ᔑᓵℸ ̣</a></li>
-        <li style={{ float: "right", paddingRight: "15px" }}><a><img src="https://cdn-icons-png.flaticon.com/512/60/60992.png" height={"25px"} width={"25px"} /></a></li>
+        <li id={"cart"}><a><img src="https://cdn-icons-png.flaticon.com/512/60/60992.png" height={"23px"} width={"23px"} /></a></li>
       </ul>
     </nav>
     </>

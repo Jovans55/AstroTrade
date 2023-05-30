@@ -19,7 +19,6 @@ ul {
 li {
     font-size: 115%;
     float: left;
-    border-right: 1px solid white;
 }
   
 li a {
@@ -38,4 +37,15 @@ li a:hover {
       1px -1px 0 black,
       -1px 1px 0 black,
        1px 1px 0 black;
+}
+
+#cart{
+    float: right;
+    margin-right: 15px;
+    border-right: none;
+}
+
+#cart:hover{
+    transition: .3s;
+    border: 1px solid rgba(255, 255, 255, 0.818);
 }
