@@ -1,0 +1,41 @@
+.title{
+    color: white;
+    font-size: 250%;
+    text-shadow:
+     -1px -1px 0 black,  
+      5px -5px 0 black,
+      -1px 1px 0 black,
+       1px 1px 0 black;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #b112a4a2;
+}
+  
+li {
+    font-size: 115%;
+    float: left;
+    border-right: 1px solid white;
+}
+  
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    transition: .3s;
+    color: white;
+    text-shadow:
+     -1px -1px 0 black,  
+      1px -1px 0 black,
+      -1px 1px 0 black,
+       1px 1px 0 black;
+}
