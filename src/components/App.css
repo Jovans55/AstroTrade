@@ -82,8 +82,7 @@ button:hover{
 
 #promoted{
     color: white;
-    background-color: #51a0c5a7;
-    border: 5px solid red;
+    background-color: white;
     padding: 300px 0px;
 }
 
@@ -112,7 +111,7 @@ button:hover{
     #topPage{
         grid-template-columns: auto 380px;
     }
-    #popular #promoted{
+    #popular{
         padding: 380px 0px;
     }
     #promoted{
