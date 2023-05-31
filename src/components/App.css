@@ -30,6 +30,7 @@ button {
 
 button:hover{
     background-color: #51a0c5;
+    box-shadow: 3px 3px;
 }
 
 #navBar {
@@ -43,8 +44,8 @@ button:hover{
     color: white;
     text-shadow:
      -1px -1px 0 black,  
-      1px -1px 0 black,
-      -1px 1px 0 black,
+      2px -1px 0 black,
+      -1px 2px 0 black,
        1px 1px 0 black;
 }
 
