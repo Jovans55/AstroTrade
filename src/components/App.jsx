@@ -6,7 +6,7 @@ function App() {
   return (
     <>
     <div>
-      <h1 id={"title"}>Aᓭℸ ̣ ∷𝙹t∷ᔑ↸ᒷ</h1>
+      <h1 id={"title"}>Aᓭℸ ̣ ∷𝙹t∷ᔑ↸ᒷ🛸</h1>
     </div>
     <nav id={"navBar"}>
       <div id={'tabs'}>
