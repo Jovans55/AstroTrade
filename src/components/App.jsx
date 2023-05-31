@@ -15,6 +15,7 @@ function App() {
       <Popular />
       <Promoted />
     </section>
+    <section></section>
     </>
   )
 }
