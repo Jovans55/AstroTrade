@@ -1,7 +1,7 @@
 const Promoted = () => {
     return (
         <div>
-            HELLO!
+            <aside id={'promoted'}>AD</aside>
         </div>
     )
 }

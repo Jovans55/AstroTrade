@@ -74,6 +74,15 @@ button:hover{
     border: 1px solid rgba(255, 255, 255, 0.818);
 }
 
+#promoted{
+    color: white;
+    background-color: #51a0c5a7;
+    border: 5px solid red;
+    padding: 300px 0px;
+    width: 370px;
+    float: right;
+}
+
 @media only screen and (min-width: 2000px) {
     body {
         display: flex;
@@ -81,6 +90,9 @@ button:hover{
     }
     #root{
         width: 65%;
+    }
+    #promoted{
+        padding: 400px 0px; 
     }
 }
 
@@ -94,5 +106,11 @@ button:hover{
     }
     #cart{
         text-align: center;
+    }
+    #promoted{
+        border: 5px solid red;
+        padding: 150px 0px;
+        width: 100%;
+        float: right;
     }
 }
