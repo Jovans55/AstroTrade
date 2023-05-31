@@ -2,6 +2,7 @@ import './App.css'
 import NavBar from './NavBar'
 import Promoted from './Promoted'
 import Popular from './Popular'
+import Products from './Products'
 
 function App() {
 
@@ -15,7 +16,7 @@ function App() {
       <Popular />
       <Promoted />
     </section>
-    <section></section>
+    <Products />
     </>
   )
 }

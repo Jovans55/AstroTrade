@@ -94,6 +94,13 @@ button:hover{
     padding: 300px 0px;
 }
 
+#products{
+    color: white;
+    background-color: rgba(255, 168, 127, 0.778);
+    border: 5px solid blue;
+    padding: 400px;
+}
+
 @media only screen and (min-width: 2000px) {
     body {
         display: flex;
@@ -105,11 +112,14 @@ button:hover{
     #topPage{
         grid-template-columns: auto 380px;
     }
-    #popular{
+    #popular #promoted{
         padding: 380px 0px;
     }
     #promoted{
-        padding: 380px 0px; 
+        padding: 380px 0px;
+    }
+    #products {
+        padding: 380px 0px;
     }
 }
 
@@ -129,5 +139,8 @@ button:hover{
     }
     #promoted{
         padding: 150px 0px;
+    }
+    #products {
+        padding: 500px 0px;
     }
 }
