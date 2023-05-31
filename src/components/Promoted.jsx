@@ -1,8 +1,6 @@
 const Promoted = () => {
     return (
-        <div>
-            <aside id={'promoted'}>AD</aside>
-        </div>
+        <aside id={'promoted'}>AD</aside>
     )
 }
 

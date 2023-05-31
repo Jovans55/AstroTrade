@@ -79,8 +79,16 @@ button:hover{
     background-color: #51a0c5a7;
     border: 5px solid red;
     padding: 300px 0px;
-    width: 370px;
+    width: 340px;
     float: right;
+}
+
+#popular{
+    color: white;
+    background-color: #c2e709a7;
+    border: 5px solid rgb(255, 0, 251);
+    padding: 300px 0px;
+    width: 920px;
 }
 
 @media only screen and (min-width: 2000px) {
@@ -92,7 +100,7 @@ button:hover{
         width: 65%;
     }
     #promoted{
-        padding: 400px 0px; 
+        padding: 380px 0px; 
     }
 }
 

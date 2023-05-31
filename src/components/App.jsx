@@ -1,6 +1,7 @@
 import './App.css'
 import NavBar from './NavBar'
 import Promoted from './Promoted'
+import Popular from './Popular'
 
 function App() {
 
@@ -10,7 +11,10 @@ function App() {
       <h1 id={"title"}>Aᓭℸ ̣ ∷𝙹t∷ᔑ↸ᒷ🛸</h1>
     </div>
     <NavBar />
-    <Promoted />
+    <section id={'topPage'}>
+      <Promoted />
+      <Popular />
+    </section>
     </>
   )
 }
