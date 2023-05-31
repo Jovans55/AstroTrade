@@ -1,4 +1,4 @@
-.title{
+#title{
     color: white;
     font-size: 250%;
     text-shadow:
@@ -8,38 +8,36 @@
        1px 1px 0 black;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #b112a4a2;
-}
-  
-li {
-    font-size: 115%;
-    float: left;
-}
-  
-li a {
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
 
 input {
-    margin: 14px 16px;
+    border: 3px solid black;
     padding: 7px;
-    padding-right: 100px;
+    padding-right: 200px;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+
+input:hover{
+    background-color: rgb(213, 213, 213);
 }
 
 button {
-    margin: 14px 16px;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 15px;
 }
-  
-li a:hover {
+
+button:hover{
+    background-color: #51a0c5;
+}
+
+#navBar {
+    background-color: #64ef6ba2;
+    display: flex;
+    justify-content: space-between;
+}
+
+#tabs a:hover {
     transition: .3s;
     color: white;
     text-shadow:
@@ -49,10 +47,24 @@ li a:hover {
        1px 1px 0 black;
 }
 
+#tabs{
+    font-size: 115%;
+}
+
+#tabs a{
+    color: black;
+    text-align: center;
+    padding-left: 50px;
+}
+
+#search {
+    padding-top: 2.5px;
+    padding-right: 200px;
+}
+
 #cart{
-    float: right;
     margin-right: 15px;
-    border-right: none;
+    padding: 5px;
 }
 
 #cart:hover{
@@ -60,16 +72,21 @@ li a:hover {
     border: 1px solid rgba(255, 255, 255, 0.818);
 }
 
-#search{
-    margin-left: 50%;
-}
-
-@media only screen and (min-width: 2200px) {
-    ul{
-        display: flex;
+@media only screen and (min-width: 2130px) {
+    #navBar {
         justify-content: space-around;
     }
-    #search{
-        margin-left: 30%;
+}
+
+@media only screen and (max-width: 1000px) {
+    #navBar {
+        flex-direction: column;
+        text-align: center;
+    }
+    #search {
+        padding-right: 0px;
+    }
+    #cart{
+        text-align: center;
     }
 }
