@@ -81,8 +81,10 @@ button:hover{
 }
 
 #promoted{
-    color: white;
-    background-color: white;
+    border: 5px solid black;
+    background-image: url("ad1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
     padding: 300px 0px;
 }
 
@@ -106,15 +108,16 @@ button:hover{
         justify-content: center;
     }
     #root{
-        width: 65%;
+        width: 70%;
     }
     #topPage{
-        grid-template-columns: auto 380px;
+        grid-template-columns: auto 420px;
     }
     #popular{
         padding: 380px 0px;
     }
     #promoted{
+        background-size: cover;
         padding: 380px 0px;
     }
     #products {
@@ -137,6 +140,7 @@ button:hover{
         grid-template-columns: auto;
     }
     #promoted{
+        background-size: cover;
         padding: 150px 0px;
     }
     #products {
