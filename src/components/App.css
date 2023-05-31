@@ -34,6 +34,7 @@ button:hover{
 }
 
 #navBar {
+    font-size: 120%;
     background-color: #64ef6ba2;
     display: flex;
     justify-content: space-between;
@@ -74,13 +75,16 @@ button:hover{
     border: 1px solid rgba(255, 255, 255, 0.818);
 }
 
+#topPage{
+    display: grid;
+    grid-template-columns: auto 340px;
+}
+
 #promoted{
     color: white;
     background-color: #51a0c5a7;
     border: 5px solid red;
     padding: 300px 0px;
-    width: 340px;
-    float: right;
 }
 
 #popular{
@@ -88,7 +92,6 @@ button:hover{
     background-color: #c2e709a7;
     border: 5px solid rgb(255, 0, 251);
     padding: 300px 0px;
-    width: 920px;
 }
 
 @media only screen and (min-width: 2000px) {
@@ -98,6 +101,12 @@ button:hover{
     }
     #root{
         width: 65%;
+    }
+    #topPage{
+        grid-template-columns: auto 380px;
+    }
+    #popular{
+        padding: 380px 0px;
     }
     #promoted{
         padding: 380px 0px; 
@@ -115,10 +124,10 @@ button:hover{
     #cart{
         text-align: center;
     }
+    #topPage{
+        grid-template-columns: auto;
+    }
     #promoted{
-        border: 5px solid red;
         padding: 150px 0px;
-        width: 100%;
-        float: right;
     }
 }

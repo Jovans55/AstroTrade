@@ -12,8 +12,8 @@ function App() {
     </div>
     <NavBar />
     <section id={'topPage'}>
-      <Promoted />
       <Popular />
+      <Promoted />
     </section>
     </>
   )
