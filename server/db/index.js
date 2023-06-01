@@ -1,7 +1,7 @@
-import db from "../database";
-import Product from "./models/Product";
+const db = require("./database");
+const Product = require("./models/Product");
 
-export default {
+module.exports = {
   db,
   Product,
 };

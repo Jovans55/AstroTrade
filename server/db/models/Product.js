@@ -1,5 +1,5 @@
-import Sequelize from "sequelize";
-import db from "../database";
+const Sequelize = require("sequelize");
+const db = require("../database");
 
 const Product = db.define("product", {
   name: {
@@ -23,4 +23,4 @@ const Product = db.define("product", {
   },
 });
 
-export default Product;
+module.exports = Product;

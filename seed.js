@@ -1,6 +1,6 @@
-import { db } from "./server/db";
+const { db } = require("./server/db");
 
-import Product from "./server/db/models/Product";
+const Product = require("./server/db/models/Product");
 
 const prodcutsData = [
   {
