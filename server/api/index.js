@@ -5,7 +5,7 @@ router.get("/", async (req, res, next) => {
   try {
     const products = await Products.findAll();
     console.log("HELLO", products);
-    res.send("DATATATATAT");
+    res.send(products);
   } catch (error) {
     next(error);
   }
