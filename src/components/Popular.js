@@ -1,17 +1,18 @@
-import React, { useEffect } from "react";
-import { useDispatch, useSelector } from "react-redux";
-import { fetchProductsAsync, selectProducts } from "../store/productSlice";
+import React, { useEffect, useState } from "react";
 
 const Popular = () => {
-  const dispatch = useDispatch();
-  const products = useSelector(selectProducts);
+  const [backendData, setBackendData] = useState([]);
   useEffect(() => {
-    dispatch(fetchProductsAsync());
+    fetch("/api")
+      .then((response) => response.json())
+      .then((data) => {
+        setBackendData(data);
+      });
   }, []);
 
-  console.log("HELLO1", products);
+  console.log("HELLO1", backendData);
 
-  return <section id={"popular"}>{products}</section>;
+  return <section id={"popular"}>hi</section>;
 };
 
 export default Popular;
