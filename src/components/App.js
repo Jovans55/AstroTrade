@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "../App.css";
+import Tilt from "react-parallax-tilt";
 import NavBar from "./NavBar";
 import Home from "./navElements/Home";
 import News from "./navElements/News";
@@ -10,7 +11,9 @@ function App() {
   return (
     <Router>
       <div>
-        <h1 id={"title"}>Aᓭℸ ̣ ∷𝙹t∷ᔑ↸ᒷ🛸</h1>
+        <Tilt style={{ scale: "1.3" }}>
+          <h1 id={"title"}>Aᓭℸ ̣ ∷𝙹t∷ᔑ↸ᒷ🛸</h1>
+        </Tilt>
       </div>
       <NavBar />
       <Routes>
