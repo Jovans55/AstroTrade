@@ -82,7 +82,7 @@ button:hover{
 
 #promoted{
     border: 5px solid black;
-    background-image: url("ad1.png");
+    background-image: url("../public/ad1.png");
     background-size: contain;
     background-repeat: no-repeat;
     padding: 300px 0px;
