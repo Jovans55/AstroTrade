@@ -24,7 +24,7 @@ const Popular = () => {
             <div class="innerCard">
               <div class="frontSide">
                 <img
-                  src={product.imageUrl}
+                  src={process.env.PUBLIC_URL + "/images/gun1.jpg"}
                   alt=""
                   width={"125px"}
                   style={{ border: "3px solid black", borderRadius: "20px" }}
