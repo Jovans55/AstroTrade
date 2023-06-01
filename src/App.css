@@ -107,9 +107,8 @@ button:hover{
 
 #popular{
     color: white;
-    background-color: #c2e709a7;
-    border: 5px solid rgb(255, 0, 251);
-    padding: 300px 0px;
+    display: flex;
+    flex-direction: row;
 }
 
 #products{
@@ -129,9 +128,6 @@ button:hover{
     }
     #topPage{
         grid-template-columns: auto 420px;
-    }
-    #popular{
-        padding: 380px 0px;
     }
     #promoted{
         background-size: cover;

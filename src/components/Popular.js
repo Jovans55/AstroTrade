@@ -18,18 +18,32 @@ const Popular = () => {
   return (
     <section id={"popular"}>
       {popularProducts.map((product) => (
-        <div class="myCard">
-          <div class="innerCard">
-            <div class="frontSide">
-              <img src={product.imageUrl} width={"150px"} alt="trash" />
-              <p class="title">{product.name}</p>
-            </div>
-            <div class="backSide">
-              <p class="title">{product.description}</p>
-              <p>Leave Me</p>
+        <>
+          <div class="myCard">
+            <div class="innerCard">
+              <div class="frontSide">
+                <p class="title">FRONT SIDE</p>
+                <p>Hover Me</p>
+              </div>
+              <div class="backSide">
+                <p class="title">BACK SIDE</p>
+                <p>Leave Me</p>
+              </div>
             </div>
           </div>
-        </div>
+          <div class="myCard">
+            <div class="innerCard">
+              <div class="frontSide">
+                <p class="title">FRONT SIDE</p>
+                <p>Hover Me</p>
+              </div>
+              <div class="backSide">
+                <p class="title">BACK SIDE</p>
+                <p>Leave Me</p>
+              </div>
+            </div>
+          </div>
+        </>
       ))}
     </section>
   );
