@@ -6,6 +6,7 @@ const initialState = [];
 export const fetchProductsAsync = createAsyncThunk("products", async () => {
   try {
     const { data } = await axios.get("/api/campuses");
+    console.log("DATA", data);
     return data;
   } catch (error) {
     console.log(error);
