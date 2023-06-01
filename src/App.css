@@ -107,8 +107,6 @@ button:hover{
 
 #popular{
     color: white;
-    display: flex;
-    flex-direction: row;
 }
 
 #products{
@@ -116,6 +114,11 @@ button:hover{
     background-color: rgba(255, 168, 127, 0.778);
     border: 5px solid blue;
     padding: 400px;
+}
+
+.cardHolder{
+    display: flex;
+    flex-direction: row;
 }
 
 @media only screen and (min-width: 2000px) {
