@@ -24,6 +24,7 @@ const Products = () => {
                   src={process.env.PUBLIC_URL + product.imageUrl}
                   alt=""
                   width={"125px"}
+                  height={"125px"}
                   style={{ border: "3px solid black", borderRadius: "20px" }}
                 />
                 <p class="title">{product.name}</p>
