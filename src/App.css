@@ -107,13 +107,13 @@ button:hover{
 
 #popular{
     color: white;
+    background-color: rgba(255, 0, 247, 0.231);
 }
 
 #products{
     color: white;
-    background-color: rgba(255, 168, 127, 0.778);
-    border: 5px solid blue;
-    padding: 400px;
+    background-color: rgba(0, 0, 170, 0.151);
+    border-top: 5px dotted rgba(0, 0, 0, 0.66);
 }
 
 .cardHolder{
@@ -136,9 +136,6 @@ button:hover{
         background-size: cover;
         padding: 380px 0px;
     }
-    #products {
-        padding: 380px 0px;
-    }
 }
 
 @media only screen and (max-width: 1000px) {
@@ -158,8 +155,5 @@ button:hover{
     #promoted{
         background-size: cover;
         padding: 150px 0px;
-    }
-    #products {
-        padding: 500px 0px;
     }
 }
