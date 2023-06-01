@@ -36,8 +36,11 @@ button:hover{
 #navBar {
     font-size: 120%;
     background-color: #64ef6ba2;
+    padding: 10px;
     display: flex;
     justify-content: space-between;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
 }
 
 #tabs a:hover {
