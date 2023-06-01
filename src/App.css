@@ -98,6 +98,7 @@ button:hover{
 
 #promoted{
     border: 5px solid black;
+    border-radius: 25px;
     background-image: url("../public/ad1.png");
     background-size: contain;
     background-repeat: no-repeat;
