@@ -12,13 +12,12 @@ const NavBar = () => {
       </div>
       <Search />
       <div id={"cart"}>
-        <a>
-          <img
-            src="https://cdn-icons-png.flaticon.com/512/60/60992.png"
-            height={"25px"}
-            width={"25px"}
-          />
-        </a>
+        <img
+          src="https://cdn-icons-png.flaticon.com/512/60/60992.png"
+          height={"25px"}
+          width={"25px"}
+          alt={"cart"}
+        />
       </div>
     </nav>
   );

@@ -12,6 +12,7 @@
 
 
 input {
+    font-size: 15px;
     border: 3px solid black;
     padding: 7px;
     padding-right: 200px;
@@ -76,7 +77,7 @@ button:hover{
 
 #cart:hover{
     transition: .3s;
-    border: 1px solid rgba(255, 255, 255, 0.818);
+    background-color: #5fe666;
 }
 
 #topPage{
