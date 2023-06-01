@@ -119,6 +119,8 @@ button:hover{
 .cardHolder{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 @media only screen and (min-width: 2000px) {
