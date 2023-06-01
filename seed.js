@@ -25,8 +25,8 @@ const seed = async () => {
   try {
     await db.sync({ force: true });
     const products = await Promise.all(
-      prodcutsData.map((prodcut) => {
-        return Product.create(prodcut);
+      prodcutsData.map((product) => {
+        return Product.create(product);
       })
     );
   } catch (error) {
