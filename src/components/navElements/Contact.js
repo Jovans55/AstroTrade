@@ -2,8 +2,15 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <section>
-      <h1 style={{ color: "white" }}>How to contact us!</h1>
+    <section
+      style={{
+        border: "5px solid rgba(0, 0, 0, 0.517)",
+        borderTop: "none",
+        borderBottomLeftRadius: "25px",
+        borderBottomRightRadius: "25px",
+      }}
+    >
+      <h1 style={{ color: "white", marginTop: "0px" }}>How to contact us!</h1>
       <img
         style={{ border: "5px solid black", margin: "25px" }}
         src={process.env.PUBLIC_URL + "contact.jpg"}

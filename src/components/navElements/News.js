@@ -2,8 +2,17 @@ import React from "react";
 
 const News = () => {
   return (
-    <section>
-      <h1 style={{ color: "white" }}>News from us blowing your stuff up!</h1>
+    <section
+      style={{
+        border: "5px solid rgba(0, 0, 0, 0.517)",
+        borderTop: "none",
+        borderBottomLeftRadius: "25px",
+        borderBottomRightRadius: "25px",
+      }}
+    >
+      <h1 style={{ color: "white", marginTop: "0px" }}>
+        News from us blowing your stuff up!
+      </h1>
       <img
         style={{ border: "5px solid black", margin: "25px" }}
         src={process.env.PUBLIC_URL + "news.jpg"}
