@@ -35,6 +35,9 @@ const Popular = () => {
               </div>
               <div class="backSide">
                 <p class="title">{product.description}</p>
+                <button style={{ backgroundColor: "white", boxShadow: "none" }}>
+                  🛒
+                </button>
               </div>
             </div>
           </div>

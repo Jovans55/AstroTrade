@@ -11,7 +11,7 @@ const Contact = () => {
         width={"1000px"}
       />
       <h1 style={{ color: "white" }}>
-        Stare up at the sky and wait for a while we'll pop up eventually
+        Stare up at the sky and wait for a while, we'll pop up eventually
       </h1>
     </section>
   );
